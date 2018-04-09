@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c834b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c834b.dir/build.make CMakeFiles/cmTC_c834b.dir/build
+make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c834b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c834b.dir/CheckSymbolExists.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_c834b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c834b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c834b.dir/CheckSymbolExists.c.o  -o cmTC_c834b 
+CMakeFiles/cmTC_c834b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c834b.dir/build.make:97: recipe for target 'cmTC_c834b' failed
+make[1]: *** [cmTC_c834b] Error 1
+make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c834b/fast' failed
+make: *** [cmTC_c834b/fast] Error 2
+
+File /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baaeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baaeb.dir/build.make CMakeFiles/cmTC_baaeb.dir/build
+make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baaeb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_baaeb.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_baaeb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baaeb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_baaeb.dir/CheckFunctionExists.c.o  -o cmTC_baaeb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_baaeb.dir/build.make:97: recipe for target 'cmTC_baaeb' failed
+make[1]: *** [cmTC_baaeb] Error 1
+make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb2600_support/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_baaeb/fast' failed
+make: *** [cmTC_baaeb/fast] Error 2
+
+

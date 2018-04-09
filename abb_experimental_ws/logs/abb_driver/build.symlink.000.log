@@ -1,0 +1,5 @@
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/lib/pkgconfig/abb_driver.pc
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/lib/abb_driver/robot_state
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/lib/abb_driver/motion_download_interface
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/share/abb_driver/cmake/abb_driverConfig-version.cmake
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/share/abb_driver/cmake/abb_driverConfig.cmake

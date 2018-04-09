@@ -1,0 +1,4 @@
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/lib/pkgconfig/abb_irb2400_moveit_plugins.pc
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/share/abb_irb2400_moveit_plugins/cmake/abb_irb2400_moveit_pluginsConfig.cmake
+Symlinking /home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/share/abb_irb2400_moveit_plugins/cmake/abb_irb2400_moveit_pluginsConfig-version.cmake
