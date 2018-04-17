@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b140b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b140b.dir/build.make CMakeFiles/cmTC_b140b.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b140b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b140b.dir/CheckSymbolExists.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_b140b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b140b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b140b.dir/CheckSymbolExists.c.o  -o cmTC_b140b 
-CMakeFiles/cmTC_b140b.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_d7915/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7915.dir/build.make CMakeFiles/cmTC_d7915.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7915.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7915.dir/CheckSymbolExists.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d7915
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7915.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d7915.dir/CheckSymbolExists.c.o  -o cmTC_d7915 
+CMakeFiles/cmTC_d7915.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b140b.dir/build.make:97: recipe for target 'cmTC_b140b' failed
-make[1]: *** [cmTC_b140b] Error 1
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b140b/fast' failed
-make: *** [cmTC_b140b/fast] Error 2
+CMakeFiles/cmTC_d7915.dir/build.make:97: recipe for target 'cmTC_d7915' failed
+make[1]: *** [cmTC_d7915] Error 1
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d7915/fast' failed
+make: *** [cmTC_d7915/fast] Error 2
 
-File /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1ced/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1ced.dir/build.make CMakeFiles/cmTC_b1ced.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b1ced.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b1ced.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b1ced
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ced.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b1ced.dir/CheckFunctionExists.c.o  -o cmTC_b1ced -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_82cf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82cf9.dir/build.make CMakeFiles/cmTC_82cf9.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82cf9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_82cf9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82cf9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82cf9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_82cf9.dir/CheckFunctionExists.c.o  -o cmTC_82cf9 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b1ced.dir/build.make:97: recipe for target 'cmTC_b1ced' failed
-make[1]: *** [cmTC_b1ced] Error 1
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b1ced/fast' failed
-make: *** [cmTC_b1ced/fast] Error 2
+CMakeFiles/cmTC_82cf9.dir/build.make:97: recipe for target 'cmTC_82cf9' failed
+make[1]: *** [cmTC_82cf9] Error 1
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_support/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82cf9/fast' failed
+make: *** [cmTC_82cf9/fast] Error 2
 
 

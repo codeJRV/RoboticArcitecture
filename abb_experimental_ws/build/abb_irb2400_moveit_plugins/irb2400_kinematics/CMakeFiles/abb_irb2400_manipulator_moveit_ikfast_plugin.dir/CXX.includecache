@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/include/ikfast.h
+/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/include/ikfast.h
 vector
 -
 list
@@ -14,7 +14,7 @@ list
 stdexcept
 -
 
-/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_moveit_plugin.cpp
+/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_moveit_plugin.cpp
 ros/ros.h
 -
 moveit/kinematics_base/kinematics_base.h
@@ -24,13 +24,13 @@ urdf/model.h
 tf_conversions/tf_kdl.h
 -
 abb_irb2400_manipulator_ikfast_solver.cpp
-/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
+/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
 pluginlib/class_list_macros.h
 -
 
-/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
+/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
 ikfast.h
-/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/ikfast.h
+/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/ikfast.h
 cmath
 -
 vector
@@ -52,7 +52,7 @@ stdio.h
 stdlib.h
 -
 
-/opt/ros/kinetic/include/class_loader/class_loader.h
+/opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp
 -
 boost/shared_ptr.hpp
@@ -64,19 +64,23 @@ string
 vector
 -
 console_bridge/console.h
-/opt/ros/kinetic/include/class_loader/console_bridge/console.h
-class_loader/class_loader_core.h
-/opt/ros/kinetic/include/class_loader/class_loader/class_loader_core.h
-class_loader/class_loader_register_macro.h
-/opt/ros/kinetic/include/class_loader/class_loader/class_loader_register_macro.h
-class_loader/console_bridge_compatibility.h
-/opt/ros/kinetic/include/class_loader/class_loader/console_bridge_compatibility.h
+/opt/ros/kinetic/include/class_loader/./console_bridge/console.h
+class_loader/class_loader_core.hpp
+/opt/ros/kinetic/include/class_loader/./class_loader/class_loader_core.hpp
+class_loader/console_bridge_compatibility.hpp
+/opt/ros/kinetic/include/class_loader/./class_loader/console_bridge_compatibility.hpp
+class_loader/register_macro.hpp
+/opt/ros/kinetic/include/class_loader/./class_loader/register_macro.hpp
 memory
 -
 functional
 -
 
-/opt/ros/kinetic/include/class_loader/class_loader_core.h
+/opt/ros/kinetic/include/class_loader/class_loader.h
+./class_loader.hpp
+/opt/ros/kinetic/include/class_loader/./class_loader.hpp
+
+/opt/ros/kinetic/include/class_loader/class_loader_core.hpp
 boost/thread/recursive_mutex.hpp
 -
 cstdio
@@ -93,32 +97,22 @@ vector
 -
 Poco/SharedLibrary.h
 /opt/ros/kinetic/include/class_loader/Poco/SharedLibrary.h
-class_loader/meta_object.h
-/opt/ros/kinetic/include/class_loader/class_loader/meta_object.h
-class_loader/class_loader_exceptions.h
-/opt/ros/kinetic/include/class_loader/class_loader/class_loader_exceptions.h
+class_loader/exceptions.hpp
+/opt/ros/kinetic/include/class_loader/class_loader/exceptions.hpp
+class_loader/meta_object.hpp
+/opt/ros/kinetic/include/class_loader/class_loader/meta_object.hpp
 
-/opt/ros/kinetic/include/class_loader/class_loader_exceptions.h
-exception
+/opt/ros/kinetic/include/class_loader/console_bridge_compatibility.hpp
+console_bridge/console.h
+-
+
+/opt/ros/kinetic/include/class_loader/exceptions.hpp
+stdexcept
 -
 string
 -
 
-/opt/ros/kinetic/include/class_loader/class_loader_register_macro.h
-string
--
-class_loader/class_loader_core.h
-/opt/ros/kinetic/include/class_loader/class_loader/class_loader_core.h
-class_loader/console_bridge_compatibility.h
-/opt/ros/kinetic/include/class_loader/class_loader/console_bridge_compatibility.h
-console_bridge/console.h
-/opt/ros/kinetic/include/class_loader/console_bridge/console.h
-
-/opt/ros/kinetic/include/class_loader/console_bridge_compatibility.h
-console_bridge/console.h
--
-
-/opt/ros/kinetic/include/class_loader/meta_object.h
+/opt/ros/kinetic/include/class_loader/meta_object.hpp
 console_bridge/console.h
 -
 typeinfo
@@ -127,8 +121,18 @@ string
 -
 vector
 -
-class_loader/console_bridge_compatibility.h
-/opt/ros/kinetic/include/class_loader/class_loader/console_bridge_compatibility.h
+class_loader/console_bridge_compatibility.hpp
+/opt/ros/kinetic/include/class_loader/class_loader/console_bridge_compatibility.hpp
+
+/opt/ros/kinetic/include/class_loader/register_macro.hpp
+string
+-
+console_bridge/console.h
+/opt/ros/kinetic/include/class_loader/console_bridge/console.h
+class_loader/class_loader_core.hpp
+/opt/ros/kinetic/include/class_loader/class_loader/class_loader_core.hpp
+class_loader/console_bridge_compatibility.hpp
+/opt/ros/kinetic/include/class_loader/class_loader/console_bridge_compatibility.hpp
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

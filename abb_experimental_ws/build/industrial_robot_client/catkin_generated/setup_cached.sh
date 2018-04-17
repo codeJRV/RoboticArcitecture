@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client:$CMAKE_PREFIX_PATH"
-export PWD="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client:$CMAKE_PREFIX_PATH"
+export PWD="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client:$ROS_PACKAGE_PATH"

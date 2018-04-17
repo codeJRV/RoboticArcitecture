@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_driver:$CMAKE_PREFIX_PATH"
-export PWD="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_driver"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_driver:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_driver:$CMAKE_PREFIX_PATH"
+export PWD="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_driver"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_driver:$ROS_PACKAGE_PATH"

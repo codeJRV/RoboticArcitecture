@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/3.9.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/3.9.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/3.9.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/3.9.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_28a2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_28a2a.dir/build.make CMakeFiles/cmTC_28a2a.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_28a2a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_28a2a.dir/testCCompiler.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_28a2a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28a2a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_28a2a.dir/testCCompiler.c.o  -o cmTC_28a2a 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_971b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_971b5.dir/build.make CMakeFiles/cmTC_971b5.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_971b5.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_971b5.dir/testCCompiler.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_971b5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971b5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_971b5.dir/testCCompiler.c.o  -o cmTC_971b5 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d15e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d15e.dir/build.make CMakeFiles/cmTC_5d15e.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5d15e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d15e.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o  -o cmTC_5d15e 
+Run Build Command:"/usr/bin/make" "cmTC_e2f5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2f5c.dir/build.make CMakeFiles/cmTC_e2f5c.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e2f5c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f5c.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o  -o cmTC_e2f5c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d15e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvKXYAu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d15e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e2f5c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8QzWoH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e2f5c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5d15e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d15e.dir/build.make CMakeFiles/cmTC_5d15e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5d15e]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d15e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o  -o cmTC_5d15e ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e2f5c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e2f5c.dir/build.make CMakeFiles/cmTC_e2f5c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e2f5c]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f5c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o  -o cmTC_e2f5c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5d15e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvKXYAu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5d15e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e2f5c' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8QzWoH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e2f5c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccvKXYAu.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8QzWoH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5d15e] ==> ignore
+    arg [cmTC_e2f5c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_5d15e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e2f5c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,17 +149,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c68e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c68e.dir/build.make CMakeFiles/cmTC_4c68e.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c68e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4c68e.dir/feature_tests.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_4c68e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c68e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4c68e.dir/feature_tests.c.o  -o cmTC_4c68e 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8a381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a381.dir/build.make CMakeFiles/cmTC_8a381.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a381.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8a381.dir/feature_tests.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8a381
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a381.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8a381.dir/feature_tests.c.o  -o cmTC_8a381 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -169,17 +169,17 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e3c6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e3c6.dir/build.make CMakeFiles/cmTC_0e3c6.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e3c6.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0e3c6.dir/feature_tests.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_0e3c6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3c6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0e3c6.dir/feature_tests.c.o  -o cmTC_0e3c6 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5bfa1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bfa1.dir/build.make CMakeFiles/cmTC_5bfa1.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bfa1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_5bfa1.dir/feature_tests.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5bfa1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bfa1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5bfa1.dir/feature_tests.c.o  -o cmTC_5bfa1 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,17 +189,17 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_929e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_929e1.dir/build.make CMakeFiles/cmTC_929e1.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_929e1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_929e1.dir/feature_tests.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_929e1
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929e1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_929e1.dir/feature_tests.c.o  -o cmTC_929e1 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ebd72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebd72.dir/build.make CMakeFiles/cmTC_ebd72.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebd72.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ebd72.dir/feature_tests.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ebd72
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebd72.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ebd72.dir/feature_tests.c.o  -o cmTC_ebd72 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -207,30 +207,30 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6bcf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6bcf.dir/build.make CMakeFiles/cmTC_c6bcf.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c6bcf.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c6bcf.dir/testCXXCompiler.cxx.o -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_c6bcf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6bcf.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c6bcf.dir/testCXXCompiler.cxx.o  -o cmTC_c6bcf 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9651f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9651f.dir/build.make CMakeFiles/cmTC_9651f.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9651f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9651f.dir/testCXXCompiler.cxx.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9651f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9651f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9651f.dir/testCXXCompiler.cxx.o  -o cmTC_9651f 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0b15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0b15.dir/build.make CMakeFiles/cmTC_c0b15.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c0b15
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b15.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c0b15 
+Run Build Command:"/usr/bin/make" "cmTC_d40b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d40b3.dir/build.make CMakeFiles/cmTC_d40b3.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d40b3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d40b3.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d40b3 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -240,23 +240,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c0b15' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD1LvVe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c0b15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d40b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccagHfiq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d40b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c0b15/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c0b15.dir/build.make CMakeFiles/cmTC_c0b15.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c0b15]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b15.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c0b15 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d40b3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d40b3.dir/build.make CMakeFiles/cmTC_d40b3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d40b3]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d40b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d40b3 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -266,13 +266,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c0b15' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD1LvVe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c0b15 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d40b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccagHfiq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d40b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccD1LvVe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccagHfiq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -290,7 +290,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c0b15] ==> ignore
+    arg [cmTC_d40b3] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_c0b15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d40b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -328,17 +328,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a62cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a62cf.dir/build.make CMakeFiles/cmTC_a62cf.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a62cf.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a62cf.dir/feature_tests.cxx.o -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_a62cf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a62cf.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a62cf.dir/feature_tests.cxx.o  -o cmTC_a62cf 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8d2e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d2e0.dir/build.make CMakeFiles/cmTC_8d2e0.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d2e0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8d2e0.dir/feature_tests.cxx.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8d2e0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d2e0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8d2e0.dir/feature_tests.cxx.o  -o cmTC_8d2e0 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -401,17 +401,17 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7d97/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7d97.dir/build.make CMakeFiles/cmTC_f7d97.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f7d97.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f7d97.dir/feature_tests.cxx.o -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_f7d97
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7d97.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f7d97.dir/feature_tests.cxx.o  -o cmTC_f7d97 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5e5c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e5c6.dir/build.make CMakeFiles/cmTC_5e5c6.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e5c6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_5e5c6.dir/feature_tests.cxx.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e5c6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5c6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5e5c6.dir/feature_tests.cxx.o  -o cmTC_5e5c6 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -474,17 +474,17 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5435/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5435.dir/build.make CMakeFiles/cmTC_a5435.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a5435.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_a5435.dir/feature_tests.cxx.o -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_a5435
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5435.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a5435.dir/feature_tests.cxx.o  -o cmTC_a5435 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_09507/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09507.dir/build.make CMakeFiles/cmTC_09507.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09507.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_09507.dir/feature_tests.cxx.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_09507
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09507.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_09507.dir/feature_tests.cxx.o  -o cmTC_09507 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -547,17 +547,17 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e170/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e170.dir/build.make CMakeFiles/cmTC_0e170.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0e170.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0e170.dir/feature_tests.cxx.o -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_0e170
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e170.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0e170.dir/feature_tests.cxx.o  -o cmTC_0e170 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_89ad6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89ad6.dir/build.make CMakeFiles/cmTC_89ad6.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89ad6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_89ad6.dir/feature_tests.cxx.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_89ad6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89ad6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_89ad6.dir/feature_tests.cxx.o  -o cmTC_89ad6 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -618,30 +618,30 @@ make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experime
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2831b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2831b.dir/build.make CMakeFiles/cmTC_2831b.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2831b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2831b.dir/CheckIncludeFile.c.o   -c "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_2831b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2831b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2831b.dir/CheckIncludeFile.c.o  -o cmTC_2831b 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a3ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3ea2.dir/build.make CMakeFiles/cmTC_a3ea2.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3ea2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a3ea2.dir/CheckIncludeFile.c.o   -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3ea2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3ea2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a3ea2.dir/CheckIncludeFile.c.o  -o cmTC_a3ea2 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
+Change Dir: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_078fa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_078fa.dir/build.make CMakeFiles/cmTC_078fa.dir/build
-make[1]: Entering directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_078fa.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_078fa.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
-Linking C executable cmTC_078fa
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_078fa.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_078fa.dir/CheckFunctionExists.c.o  -o cmTC_078fa -lpthread 
-make[1]: Leaving directory '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5a258/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a258.dir/build.make CMakeFiles/cmTC_5a258.dir/build
+make[1]: Entering directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a258.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5a258.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a258
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a258.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5a258.dir/CheckFunctionExists.c.o  -o cmTC_5a258 -lpthread 
+make[1]: Leaving directory '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support/CMakeFiles/CMakeTmp'
 
 

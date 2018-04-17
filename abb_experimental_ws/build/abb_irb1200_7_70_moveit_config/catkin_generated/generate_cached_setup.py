@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel;/opt/ros/kinetic".split(';'):
+    for workspace in "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel;/opt/ros/kinetic".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_irb1200_7_70_moveit_config/env.sh')
+code = generate_environment_script('/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_irb1200_7_70_moveit_config/env.sh')
 
-output_filename = '/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb1200_7_70_moveit_config/catkin_generated/setup_cached.sh'
+output_filename = '/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb1200_7_70_moveit_config/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

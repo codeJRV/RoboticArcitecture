@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"industrial_utils\"
 
-CXX_INCLUDES = -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_utils/include" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_utils/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

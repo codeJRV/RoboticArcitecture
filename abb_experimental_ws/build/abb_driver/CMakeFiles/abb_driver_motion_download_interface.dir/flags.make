@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DLINUXSOCKETS=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"abb_driver\"
 
-CXX_INCLUDES = -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_driver/include" -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_msgs/include" -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_utils/include" -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/simple_message/include" -I"/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/include" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_driver/include -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_msgs/include -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_utils/include -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/simple_message/include -I/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

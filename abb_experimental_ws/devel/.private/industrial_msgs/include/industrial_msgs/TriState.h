@@ -37,18 +37,21 @@ struct TriState_
   _val_type val;
 
 
-    enum { UNKNOWN = -1 };
-     enum { TRUE = 1 };
-     enum { ON = 1 };
-     enum { ENABLED = 1 };
-     enum { HIGH = 1 };
-     enum { CLOSED = 1 };
-     enum { FALSE = 0 };
-     enum { OFF = 0 };
-     enum { DISABLED = 0 };
-     enum { LOW = 0 };
-     enum { OPEN = 0 };
- 
+
+  enum {
+    UNKNOWN = -1,
+    TRUE = 1,
+    ON = 1,
+    ENABLED = 1,
+    HIGH = 1,
+    CLOSED = 1,
+    FALSE = 0,
+    OFF = 0,
+    DISABLED = 0,
+    LOW = 0,
+    OPEN = 0,
+  };
+
 
   typedef boost::shared_ptr< ::industrial_msgs::TriState_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::industrial_msgs::TriState_<ContainerAllocator> const> ConstPtr;
@@ -103,7 +106,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': True, 'IsMessage': True, 'HasHeader': False}
-// {'industrial_msgs': ['/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_msgs/msg'], 'trajectory_msgs': ['/opt/ros/kinetic/share/trajectory_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg']}
+// {'industrial_msgs': ['/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_msgs/msg'], 'trajectory_msgs': ['/opt/ros/kinetic/share/trajectory_msgs/cmake/../msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client
+# Install script for directory: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,93 +44,93 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/_setup_util.py")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE PROGRAM FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE PROGRAM FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/env.sh")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE PROGRAM FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE PROGRAM FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/env.sh")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/setup.bash")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.bash")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/setup.sh")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.sh")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/setup.zsh")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/setup.zsh")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install/.rosinstall")
+   "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_client.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_client.pc")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/cmake" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/cmake/issue46_workaround.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/cmake" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/cmake/issue46_workaround.cmake")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/cmake" TYPE FILE FILES
-    "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_clientConfig.cmake"
-    "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_clientConfig-version.cmake"
+    "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_clientConfig.cmake"
+    "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/catkin_generated/installspace/industrial_robot_clientConfig-version.cmake"
     )
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/package.xml")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -140,7 +140,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_dummy.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_dummy.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_dummy.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -156,12 +156,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client.so")
@@ -176,12 +176,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_bswap.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_bswap.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_bswap.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_bswap.so"
-         OLD_RPATH "/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libindustrial_robot_client_bswap.so")
@@ -196,12 +196,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/robot_state")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/robot_state")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state")
@@ -216,12 +216,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state_bswap"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/robot_state_bswap")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/robot_state_bswap")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state_bswap" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state_bswap")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state_bswap"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/robot_state_bswap")
@@ -236,12 +236,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface")
@@ -256,12 +256,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_download_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_download_interface")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface")
@@ -276,12 +276,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface_bswap"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface_bswap")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_streaming_interface_bswap")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface_bswap" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface_bswap")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface_bswap"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_streaming_interface_bswap")
@@ -296,12 +296,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface_bswap"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_download_interface_bswap")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/motion_download_interface_bswap")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface_bswap" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface_bswap")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface_bswap"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/motion_download_interface_bswap")
@@ -316,12 +316,12 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/joint_trajectory_action"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/joint_trajectory_action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client" TYPE EXECUTABLE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/industrial_robot_client/joint_trajectory_action")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/joint_trajectory_action" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/joint_trajectory_action")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/joint_trajectory_action"
-         OLD_RPATH "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib:/opt/ros/kinetic/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib:/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_utils/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/industrial_robot_client/joint_trajectory_action")
@@ -330,20 +330,20 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/industrial_robot_client" TYPE DIRECTORY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/include/industrial_robot_client/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/industrial_robot_client" TYPE DIRECTORY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/include/industrial_robot_client/")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/config" TYPE DIRECTORY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/config" TYPE DIRECTORY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/config/")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/launch" TYPE DIRECTORY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/industrial_robot_client/launch" TYPE DIRECTORY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/gtest/cmake_install.cmake")
+  include("/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/gtest/cmake_install.cmake")
 
 endif()
 
@@ -355,5 +355,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/industrial_robot_client/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics
+# Install script for directory: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_irb2400_moveit_plugins/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_irb2400_moveit_plugins/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libabb_irb2400_manipulator_moveit_ikfast_plugin.so")
     file(RPATH_CHANGE
@@ -53,6 +53,6 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb2400_moveit_plugins/irb2400_kinematics" TYPE FILE FILES "/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/abb_irb2400_manipulator_moveit_ikfast_plugin_description.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/abb_irb2400_moveit_plugins/irb2400_kinematics" TYPE FILE FILES "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/abb_irb2400_manipulator_moveit_ikfast_plugin_description.xml")
 endif()
 

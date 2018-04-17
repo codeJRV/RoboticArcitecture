@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_irb7600_support:$CMAKE_PREFIX_PATH"
-export PWD="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/build/abb_irb7600_support"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/devel/.private/abb_irb7600_support/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jrv/Research/Robotic Architecture/abb_experimental_ws/src/abb_experimental/abb_irb7600_support:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_irb7600_support:$CMAKE_PREFIX_PATH"
+export PWD="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/abb_irb7600_support"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/abb_irb7600_support/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb_experimental/abb_irb7600_support:$ROS_PACKAGE_PATH"
