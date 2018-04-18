@@ -37,17 +37,43 @@
 ## to the 'chatter' topic
 
 import rospy
+import serial
+import time
 from std_msgs.msg import String
 
 def talker():
     pub = rospy.Publisher('chatter', String, queue_size=10)
     rospy.init_node('talker', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
+    rate = rospy.Rate(1) # 10hz
+    ser  =serial.Serial('/dev/ttyUSB0', 38400)
+    print(ser.name)
+    ser.write('/000R4D.')
+    time.sleep(3)
+    ser.write('/020D0p19.')
+    seq = []
+    count = 1
+
     while not rospy.is_shutdown():
-        hello_str = "hello world %s" % rospy.get_time()
-        rospy.loginfo(hello_str)
-        pub.publish(hello_str)
+        #hello_str = "hello world %s" % rospy.get_time()
+
+        for c in ser.read():
+            seq.append(chr(c)) #convert from ANSII
+            joined_seq = ''.join(str(v) for v in seq) #Make a string from array
+
+            if chr(c) == '.':
+                print("Line " + str(count) + ': ' + joined_seq + "Time : " + rospy.get_time())
+                seq = []
+                count += 1
+                break
+
+        rospy.loginfo(joined_seq)
+        pub.publish(joined_seq)
         rate.sleep()
+
+    ser.write('/020D0a08.')
+    time.sleep(3)
+    ser.close()
+
 
 if __name__ == '__main__':
     try:
