@@ -44,11 +44,11 @@ from std_msgs.msg import String
 def talker():
     pub = rospy.Publisher('chatter', String, queue_size=10)
     rospy.init_node('talker', anonymous=True)
-    rate = rospy.Rate(1) # 10hz
+    rate = rospy.Rate(10) # 10hz
     ser  =serial.Serial('/dev/ttyUSB0', 38400)
     print(ser.name)
     ser.write('/000R4D.')
-    time.sleep(30)
+    time.sleep(10)
     ser.write('/020D0p19.')
     seq = []
     count = 1
@@ -57,18 +57,19 @@ def talker():
         #hello_str = "hello world %s" % rospy.get_time()
 
         for c in ser.read():
-            seq.append(chr(c)) #convert from ANSII
+	    #print(c)
+            seq.append(c) #convert from ANSII
             joined_seq = ''.join(str(v) for v in seq) #Make a string from array
 
-            if chr(c) == '.':
+            if c == '.':
                 print("Line " + str(count) + ': ' + joined_seq + "Time : " + str(rospy.get_time()))
                 seq = []
                 count += 1
                 break
-
-        rospy.loginfo(joined_seq)
-        pub.publish(joined_seq)
-        rate.sleep()
+	        rospy.loginfo(joined_seq)
+        	pub.publish(joined_seq)
+        
+	rate.sleep()
 
     ser.write('/020D0a08.')
     time.sleep(3)
