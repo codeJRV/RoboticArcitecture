@@ -48,7 +48,7 @@ def talker():
     ser  =serial.Serial('/dev/ttyUSB0', 38400)
     print(ser.name)
     ser.write('/000R4D.')
-    time.sleep(3)
+    time.sleep(300)
     ser.write('/020D0p19.')
     seq = []
     count = 1
@@ -61,7 +61,7 @@ def talker():
             joined_seq = ''.join(str(v) for v in seq) #Make a string from array
 
             if chr(c) == '.':
-                print("Line " + str(count) + ': ' + joined_seq + "Time : " + rospy.get_time())
+                #print("Line " + str(count) + ': ' + joined_seq + "Time : " + rospy.get_time())
                 seq = []
                 count += 1
                 break
