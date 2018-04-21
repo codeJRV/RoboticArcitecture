@@ -1,4 +1,4 @@
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/rosserial_python/lib/pkgconfig/rosserial_python.pc, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/rosserial_python.pc)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/rosserial_python/lib/python2.7/dist-packages/rosserial_python/__init__.py, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/python2.7/dist-packages/rosserial_python/__init__.py)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig.cmake)
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/rosserial_python.pc
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/python2.7/dist-packages/rosserial_python/__init__.py
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig.cmake

@@ -389,8 +389,8 @@ clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 # Target rules for target CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/all: CMakeFiles/clean_test_results_industrial_utils.dir/all
 CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/all: CMakeFiles/utest_inds_utils.dir/all
+CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/all: CMakeFiles/clean_test_results_industrial_utils.dir/all
 CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/build.make CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/build.make CMakeFiles/_run_tests_industrial_utils_gtest_utest_inds_utils.dir/build

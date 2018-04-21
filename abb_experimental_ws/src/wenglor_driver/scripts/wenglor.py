@@ -36,6 +36,9 @@
 ## Simple talker demo that published std_msgs/Strings messages
 ## to the 'chatter' topic
 
+
+DIST_CORR  = 52
+
 import rospy
 import serial
 import time
@@ -44,12 +47,12 @@ from std_msgs.msg import String
 def talker():
     pub = rospy.Publisher('chatter', String, queue_size=10)
     rospy.init_node('talker', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
+    rate = rospy.Rate(400) # 10hz
     ser  =serial.Serial('/dev/ttyUSB0', 38400)
     print(ser.name)
     ser.write('/000R4D.')
-    time.sleep(10)
-    ser.write('/020D0p19.')
+    time.sleep(0.5)
+    ser.write('/020D0059.')
     seq = []
     count = 1
 
@@ -62,13 +65,18 @@ def talker():
             joined_seq = ''.join(str(v) for v in seq) #Make a string from array
 
             if c == '.':
-                print("Line " + str(count) + ': ' + joined_seq + "Time : " + str(rospy.get_time()))
+                #print("Line " + str(count) + ': ' + joined_seq[8:14] + "Time : " + str(rospy.get_time()))
                 seq = []
+                ser.write('/020D0059.')
+                time.sleep(0.005)
                 count += 1
+                dist_str = joined_seq[8:11]
+                if(dist_str.isdigit()):
+                    dist = int(dist_str) + DIST_CORR
+                    rospy.loginfo(dist)
+                    pub.publish(dist)
                 break
-	        rospy.loginfo(joined_seq)
-        	pub.publish(joined_seq)
-        
+
 	rate.sleep()
 
     ser.write('/020D0a08.')

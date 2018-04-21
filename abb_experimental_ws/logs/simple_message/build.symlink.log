@@ -1,7 +1,7 @@
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib/libsimple_message.so, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message.so)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib/libsimple_message_float64.so, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_float64.so)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib/libsimple_message_bswap.so, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_bswap.so)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib/libsimple_message_dummy.so, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_dummy.so)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/lib/pkgconfig/simple_message.pc, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/simple_message.pc)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig-version.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/simple_message/cmake/simple_messageConfig-version.cmake)
-Linked: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/simple_message/cmake/simple_messageConfig.cmake)
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message.so
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_float64.so
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_bswap.so
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/libsimple_message_dummy.so
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/simple_message.pc
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/simple_message/cmake/simple_messageConfig-version.cmake
+Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/simple_message/cmake/simple_messageConfig.cmake
