@@ -1,1 +1,1 @@
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/industrial_msgs-srv.asd
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_msgs/share/common-lisp/ros/industrial_msgs/srv/industrial_msgs-srv.asd

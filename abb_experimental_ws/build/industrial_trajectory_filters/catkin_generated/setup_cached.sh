@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters:$CMAKE_PREFIX_PATH"
-export PWD="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_trajectory_filters"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_trajectory_filters:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_trajectory_filters"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_trajectory_filters/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/industrial_core/industrial_trajectory_filters:$ROS_PACKAGE_PATH"

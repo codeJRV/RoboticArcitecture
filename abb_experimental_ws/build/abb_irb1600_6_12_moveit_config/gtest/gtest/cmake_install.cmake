@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

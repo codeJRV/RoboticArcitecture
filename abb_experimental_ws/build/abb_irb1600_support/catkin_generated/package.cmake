@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "abb_irb1600_support")
 set(abb_irb1600_support_VERSION "0.0.0")
-set(abb_irb1600_support_MAINTAINER "Austin Deric (Southwest Research Institute) <aderic@swri.org>")
+set(abb_irb1600_support_MAINTAINER "Austin Deric (Southwest Research Institute) <aderic@swri.org>, Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>")
 set(abb_irb1600_support_PACKAGE_FORMAT "2")
 set(abb_irb1600_support_BUILD_DEPENDS "roslaunch")
 set(abb_irb1600_support_BUILD_EXPORT_DEPENDS )

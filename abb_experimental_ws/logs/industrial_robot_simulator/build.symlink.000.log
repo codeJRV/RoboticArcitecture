@@ -1,3 +1,12 @@
-Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/industrial_robot_simulator.pc
-Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake
-Symlinking /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake
+Symlinking /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/lib/pkgconfig/industrial_robot_simulator.pc
+Symlinking /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake
+Symlinking /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake
+Cleaning: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/industrial_robot_simulator.pc)
+Cleaning: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake)
+Cleaning: (/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake, /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake)
+Unlinking: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/lib/pkgconfig/industrial_robot_simulator.pc
+Already unlinked: {}
+Unlinking: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake
+Already unlinked: {}
+Unlinking: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake
+Already unlinked: {}

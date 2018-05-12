@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "abb_irb6650s_support")
 set(abb_irb6650s_support_VERSION "0.1.0")
-set(abb_irb6650s_support_MAINTAINER "Levi Armstrong <levi.armstrong@swri.org>")
+set(abb_irb6650s_support_MAINTAINER "Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>")
 set(abb_irb6650s_support_PACKAGE_FORMAT "1")
 set(abb_irb6650s_support_BUILD_DEPENDS "roslaunch")
 set(abb_irb6650s_support_BUILD_EXPORT_DEPENDS "abb_driver" "joint_state_publisher" "robot_state_publisher" "rviz")

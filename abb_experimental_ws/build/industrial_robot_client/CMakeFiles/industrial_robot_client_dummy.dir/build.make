@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client
+CMAKE_SOURCE_DIR = /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client
+CMAKE_BINARY_DIR = /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/industrial_robot_client_dummy.dir/depend.make
@@ -58,21 +58,21 @@ include CMakeFiles/industrial_robot_client_dummy.dir/progress.make
 include CMakeFiles/industrial_robot_client_dummy.dir/flags.make
 
 industrial_robot_client_dummy.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating industrial_robot_client_dummy.cpp"
-	/usr/local/bin/cmake -E touch /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating industrial_robot_client_dummy.cpp"
+	/usr/local/bin/cmake -E touch /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp
 
 CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o: CMakeFiles/industrial_robot_client_dummy.dir/flags.make
 CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o: industrial_robot_client_dummy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o -c /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o -c /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp
 
 CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp > CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp > CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.i
 
 CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/industrial_robot_client_dummy.cpp -o CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.s
 
 CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o.requires:
 
@@ -92,14 +92,14 @@ industrial_robot_client_dummy_OBJECTS = \
 # External object files for target industrial_robot_client_dummy
 industrial_robot_client_dummy_EXTERNAL_OBJECTS =
 
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/build.make
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so"
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/industrial_robot_client_dummy.cpp.o
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/build.make
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so: CMakeFiles/industrial_robot_client_dummy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/industrial_robot_client_dummy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/industrial_robot_client_dummy.dir/build: /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so
+CMakeFiles/industrial_robot_client_dummy.dir/build: /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_dummy.so
 
 .PHONY : CMakeFiles/industrial_robot_client_dummy.dir/build
 
@@ -112,6 +112,6 @@ CMakeFiles/industrial_robot_client_dummy.dir/clean:
 .PHONY : CMakeFiles/industrial_robot_client_dummy.dir/clean
 
 CMakeFiles/industrial_robot_client_dummy.dir/depend: industrial_robot_client_dummy.cpp
-	cd /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client /home/jrv/Research/RoboticArchitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/industrial_core/industrial_robot_client /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client /home/jrv/Research/RoboticArcitecture/abb_experimental_ws/build/industrial_robot_client/CMakeFiles/industrial_robot_client_dummy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/industrial_robot_client_dummy.dir/depend
 

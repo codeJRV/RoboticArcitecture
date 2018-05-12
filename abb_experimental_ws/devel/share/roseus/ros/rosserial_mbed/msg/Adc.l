@@ -1,1 +1,0 @@
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/rosserial_mbed/share/roseus/ros/rosserial_mbed/msg/Adc.l

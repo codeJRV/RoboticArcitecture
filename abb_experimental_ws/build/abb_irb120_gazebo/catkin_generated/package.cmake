@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "abb_irb120_gazebo")
 set(abb_irb120_gazebo_VERSION "0.0.1")
-set(abb_irb120_gazebo_MAINTAINER "Mark Culleton (Trinity College Dublin) <culletom@tcd.ie>")
+set(abb_irb120_gazebo_MAINTAINER "Mark Culleton (Trinity College Dublin) <culletom@tcd.ie>, Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>")
 set(abb_irb120_gazebo_PACKAGE_FORMAT "2")
 set(abb_irb120_gazebo_BUILD_DEPENDS )
 set(abb_irb120_gazebo_BUILD_EXPORT_DEPENDS )

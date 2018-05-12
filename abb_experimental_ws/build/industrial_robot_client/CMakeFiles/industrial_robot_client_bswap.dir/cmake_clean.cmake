@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/industrial_robot_client_bswap.dir/src/joint_trajectory_interface.cpp.o"
   "CMakeFiles/industrial_robot_client_bswap.dir/src/robot_state_interface.cpp.o"
   "CMakeFiles/industrial_robot_client_bswap.dir/src/utils.cpp.o"
-  "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.pdb"
-  "/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.so"
+  "/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.pdb"
+  "/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/devel/.private/industrial_robot_client/lib/libindustrial_robot_client_bswap.so"
 )
 
 # Per-language clean rules from dependency scanning.

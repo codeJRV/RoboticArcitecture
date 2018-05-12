@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/include/ikfast.h
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/include/ikfast.h
 vector
 -
 list
@@ -14,7 +14,7 @@ list
 stdexcept
 -
 
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_moveit_plugin.cpp
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_moveit_plugin.cpp
 ros/ros.h
 -
 moveit/kinematics_base/kinematics_base.h
@@ -24,13 +24,13 @@ urdf/model.h
 tf_conversions/tf_kdl.h
 -
 abb_irb2400_manipulator_ikfast_solver.cpp
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
 pluginlib/class_list_macros.h
 -
 
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/abb_irb2400_manipulator_ikfast_solver.cpp
 ikfast.h
-/home/jrv/Research/RoboticArchitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/ikfast.h
+/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/src/abb/abb_irb2400_moveit_plugins/irb2400_kinematics/src/ikfast.h
 cmath
 -
 vector

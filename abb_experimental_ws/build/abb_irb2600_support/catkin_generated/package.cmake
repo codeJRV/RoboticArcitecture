@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "abb_irb2600_support")
 set(abb_irb2600_support_VERSION "0.1.0")
-set(abb_irb2600_support_MAINTAINER "Jonathan Meyer (SwRI) <jonathan.meyer@swri.org>")
+set(abb_irb2600_support_MAINTAINER "Jonathan Meyer (SwRI) <jonathan.meyer@swri.org>, Levi Armstrong (Southwest Research Institute) <levi.armstrong@swri.org>")
 set(abb_irb2600_support_PACKAGE_FORMAT "2")
 set(abb_irb2600_support_BUILD_DEPENDS )
 set(abb_irb2600_support_BUILD_EXPORT_DEPENDS )
