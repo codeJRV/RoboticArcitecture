@@ -126,6 +126,8 @@ target_z = 0.300
 first = 0
 tolerance = 0.008
 
+firstTime = True
+
 FILE_PATH = "/home/jrv/Research/RoboticArcitecture/abb_experimental_ws/Pattern/Output80.txt"
 
 def callback(data):
@@ -150,6 +152,9 @@ def callback(data):
       for point in op_waypoints:
         print point
       mover()
+      print "============ Stopping the system..."
+      rospy.sleep(5)
+      rospy.signal_shutdown("We are done")
 
     
 def listener():
@@ -166,104 +171,82 @@ def listener():
 
     # spin() simply keeps python from exiting until this node is stopped
     if(len(ip_waypoints)!=len(op_waypoints)):
-      rospy.spin()
+     rospy.spin()
 
 def mover():
-   if(len(op_waypoints)==len(ip_waypoints)):
-      display_trajectory_publisher = rospy.Publisher(
+  global firstTime
+  if(len(op_waypoints)==len(ip_waypoints) and firstTime == True):
+    move_group_output()
+    firstTime = False;
+
+
+
+def move_group_output():
+
+  print "============ Starting Printing setup"
+  moveit_commander.roscpp_initialize(sys.argv)
+  robot = moveit_commander.RobotCommander()
+  scene = moveit_commander.PlanningSceneInterface()
+  group = moveit_commander.MoveGroupCommander("manipulator")
+  display_trajectory_publisher = rospy.Publisher(
                                       '/move_group/display_planned_path',
                                       moveit_msgs.msg.DisplayTrajectory,
                                       queue_size=20)
+
+  print "============ Waiting for RVIZ..."
+  rospy.sleep(10)
+
+  wpose = geometry_msgs.msg.Pose()  
+  wpose = group.get_current_pose().pose
+  print wpose
+  waypoints = []
+  for coordinates in op_waypoints:
+    wpose.position.x = float(coordinates[0])/1000
+    wpose.position.y = float(coordinates[1])/1000
+    wpose.position.z = float(coordinates[2])/1000
+    waypoints.append(copy.deepcopy(wpose))
+
+  (plan3, fraction) = group.compute_cartesian_path(
+                               waypoints,   # waypoints to follow
+                               0.01,        # eef_step
+                               0.0)         # jump_threshold
+  
+  print "============ Waiting while RVIZ displays plan3..."
+  rospy.sleep(5)
+
+  is_safe = raw_input("Plan ok to exexute? : y/n ")
+  slow_move = raw_input("Move slow to checkpoints? : y/n ")
+
+  if(slow_move == 'y' and is_safe=='y'):
+    for coordinates1, coordinates2 in grouper(2, op_waypoints):
       waypoints=[]
-      path_plan = []
-      
-      next_pose = geometry_msgs.msg.Pose() 
-      next_pose  = group.get_current_pose().pose;
-
-      pose_target = geometry_msgs.msg.Pose()
-      pose_target.orientation.w = 1.0000
-      pose_target.orientation.x = 0.0000
-      pose_target.orientation.y = 0.0000
-      pose_target.orientation.z = 0.0000
-      pose_target.position.x = op_waypoints[0][0]
-      pose_target.position.y = op_waypoints[0][1]
-      pose_target.position.z = op_waypoints[0][2]
-      group.set_pose_target(pose_target)
-      plan1 = group.plan()
-      group.go()
-
-
-
-      for coordinates in op_waypoints:
-        next_pose.position.x = float(coordinates[0])/1000
-        next_pose.position.y = float(coordinates[1])/1000
-        next_pose.position.z = float(coordinates[2])/1000
-        waypoints.append(copy.deepcopy(next_pose))
-
-      (plan3, fraction) = group.compute_cartesian_path(
-                                   waypoints,   # waypoints to follow
-                                   0.01,        # eef_step
-                                   0.0)         # jump_threshold
-
-      print "============ Waiting while RVIZ displays plan3..."
-      rospy.sleep(5)
-
-      is_safe = raw_input("Plan ok to exexute? : y/n ")
-      slow_move = raw_input("Move slow to checkpoints? : y/n ")
-
+      wpose.position.x = float(coordinates1[0])/1000
+      wpose.position.y = float(coordinates1[1])/1000
+      wpose.position.z = float(coordinates1[2])/1000
+      waypoints.append(copy.deepcopy(wpose))
+      wpose.position.x = float(coordinates2[0])/1000
+      wpose.position.y = float(coordinates2[1])/1000
+      wpose.position.z = float(coordinates2[2])/1000
+      waypoints.append(copy.deepcopy(wpose))
+      (plan, fraction) = group.compute_cartesian_path(
+                                 waypoints,   # waypoints to follow
+                                 0.01,        # eef_step
+                                 0.0)         # jump_threshold
+      #path_plan.append(plan)
       if(is_safe=='y'):
-        group.execute(plan3)
+        print("Executing trajectory")
+        group.execute(plan)
+  else:
+    if(is_safe=='y'):
+      print("Executing trajectory")
+      group.execute(plan3)
+                              
+  print "============ Waiting while RVIZ displays plan3..."
+  rospy.sleep(5)
+  collision_object = moveit_msgs.msg.CollisionObject()
+  moveit_commander.roscpp_shutdown()
 
-
-
-      # if(slow_move == 'y' and is_safe=='y'):
-
-      #   waypoints=[]
-      #   wpose = group.get_current_pose().pose
-      #   waypoints.append(copy.deepcopy(wpose))
-      #   wpose.position.x = float(op_waypoints[0][0])/1000
-      #   wpose.position.y = float(op_waypoints[0][1])/1000
-      #   wpose.position.z = float(op_waypoints[0][2])/1000
-      #   waypoints.append(copy.deepcopy(wpose))
-      #   (planStart, fraction) = group.compute_cartesian_path(
-      #                              waypoints,   # waypoints to follow
-      #                              0.01,        # eef_step
-      #                              0.0)         # jump_threshold
-
-      #   group.execute(planStart)
-
-      #   for coordinates1, coordinates2 in grouper(2, op_waypoints):
-      #     waypoints=[]
-      #     wpose.position.x = float(coordinates1[0])/1000
-      #     wpose.position.y = float(coordinates1[1])/1000
-      #     wpose.position.y = float(coordinates1[2])/1000
-      #     waypoints.append(copy.deepcopy(wpose))
-      #     wpose.position.x = float(coordinates2[0])/1000
-      #     wpose.position.y = float(coordinates2[1])/1000
-      #     wpose.position.y = float(coordinates2[2])/1000
-      #     waypoints.append(copy.deepcopy(wpose))
-      #     (plan, fraction) = group.compute_cartesian_path(
-      #                                waypoints,   # waypoints to follow
-      #                                0.01,        # eef_step
-      #                                0.0)         # jump_threshold
-      #     #path_plan.append(plan)
-      #     if(is_safe=='y'):
-      #       print("Executing trajectory")
-      #       group.execute(plan)
-      # else:
-      #   if(is_safe=='y'):
-      #     print("Executing trajectory")
-          
-
-
-
-      print "============ Waiting while RVIZ displays plan3..."
-      rospy.sleep(5)
-
-      collision_object = moveit_msgs.msg.CollisionObject()
-      moveit_commander.roscpp_shutdown()
-
-      print "============ STOPPING"
+  print "============ STOPPING"
 
 
 
