@@ -42,11 +42,11 @@ DIST_CORR  = 52
 import rospy
 import serial
 import time
-from std_msgs.msg import String
+from std_msgs.msg import Float64
 
 def talker():
-    pub = rospy.Publisher('chatter', String, queue_size=10)
-    rospy.init_node('talker', anonymous=True)
+    pub = rospy.Publisher('sensor_readings', Float64, queue_size=10)
+    rospy.init_node('wenglor_node', anonymous=True)
     rate = rospy.Rate(400) # 10hz
     ser  =serial.Serial('/dev/ttyUSB0', 38400)
     print(ser.name)
@@ -72,7 +72,7 @@ def talker():
                 count += 1
                 dist_str = joined_seq[8:11]
                 if(dist_str.isdigit()):
-                    dist = int(dist_str) + DIST_CORR
+                    dist = float( int(dist_str) + DIST_CORR )/1000
                     rospy.loginfo(dist)
                     pub.publish(dist)
                 break
